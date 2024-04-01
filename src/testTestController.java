@@ -9,7 +9,7 @@ import org.guanzon.validators.ValidatorInterface;
 import org.rmj.appdriver.MiscUtil;
 import org.rmj.appdriver.SQLUtil;
 
-public class testModel {
+public class testTestController {
     public static void main (String [] args){
         // Connection parameters
         String url = "jdbc:mysql://172.16.1.6:3306/CASys_DBF";
