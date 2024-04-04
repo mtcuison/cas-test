@@ -13,8 +13,8 @@ public class testTestController {
     public static void main (String [] args){
         // Connection parameters
         String url = "jdbc:mysql://172.16.1.6:3306/CASys_DBF";
-        String username = "sa";
-        String password = "Atsp,imrtptd";
+        String username = "username";
+        String password = "password";
 
         try {
             Connection connection = DriverManager.getConnection(url, username, password);

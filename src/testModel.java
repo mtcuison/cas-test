@@ -12,9 +12,9 @@ import org.rmj.appdriver.SQLUtil;
 public class testModel {
     public static void main (String [] args){
         // Connection parameters
-        String url = "jdbc:mysql://172.16.1.6:3306/CASys_DBF";
-        String username = "sa";
-        String password = "Atsp,imrtptd";
+        String url = "jdbc:mysql://172.16.0.14:3306/CASys_DBF";
+        String username = "username";
+        String password = "password";
 
         try {
             Connection connection = DriverManager.getConnection(url, username, password);
