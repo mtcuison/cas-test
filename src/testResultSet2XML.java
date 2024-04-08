@@ -12,8 +12,8 @@ public class testResultSet2XML {
         
         // Connection parameters
         String url = "jdbc:mysql://172.16.0.14:3306/CASys_DBF";
-        String username = "sa";
-        String password = "Atsp,imrtptd";
+        String username = "";
+        String password = "";
         
         String lsSQL = "SELECT" +
                             "  a.sClientID" +
